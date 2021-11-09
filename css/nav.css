@@ -1,5 +1,5 @@
 /*import google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -118,10 +118,10 @@ nav .toggle-collapse .toggle-icons i {
 .collapse {
   height: 34rem;
   background-color: #ff5c00;
-}
+} */
 
 /* creating own toggle icons  */
-.icon,
+/* .icon,
 .icon::before,
 .icon::after {
   position: relative;
@@ -245,4 +245,4 @@ nav .toggle-collapse .toggle-icons i {
   nav .toggle-collapse {
     display: initial;
   }
-}
+} */

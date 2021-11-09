@@ -41,28 +41,35 @@
   padding: 0.7rem;
   font-size: 1rem;
   margin-top: 5px;
+  cursor: pointer;
+  z-index: 20;
 }
 
 .chatbox__support .m-list {
   background-color: rgba(8, 0, 0, 0.014);
   margin-bottom: 20px;
   display: flex;
+  justify-content: space-between;
 }
 
 .chatbox__support .m-list p {
   color: white;
+  text-decoration: none;
 }
 
+.chatbox__support p {
+  text-decoration: underline;
+}
 .chatbox__support .m-list a {
   text-decoration: none;
   color: orangered;
-  margin-left: 1rem;
 }
 
 .chatbox .chatbox__support .cross img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   position: absolute;
-  left: 270px;
+  left: 290px;
   top: 20px;
+  cursor: pointer;
 }

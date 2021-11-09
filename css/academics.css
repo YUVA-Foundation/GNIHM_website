@@ -149,13 +149,13 @@ a {
 }
 /* ELIGIBILITY SECTION */
 
-ul {
+.points ul {
   margin-top: 4%;
 }
 .points {
   margin: 0 10%;
 }
-ul li {
+.points ul li {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
@@ -271,10 +271,10 @@ tr:nth-child(even) {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
   }
-  ul {
+  .points ul {
     margin-top: 1.5rem;
   }
-  ul li {
+  .points ul li {
     font-size: 14px;
     line-height: 130.5%;
   }
