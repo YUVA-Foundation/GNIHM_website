@@ -71,17 +71,19 @@ a {
 .contact-details {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   font-family: 'Poppins';
 }
 .contact-info {
-  width: 400px;
-  padding: 2rem 2.5rem;
+  width: 600px;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
   margin: auto;
   font-family: 'Poppins';
+  font-size:16px;
 }
 .map {
   flex-basis: 50%;
@@ -90,11 +92,11 @@ a {
   width: 100%;
 }
 .contact-info h2 {
-  font-size: 28px;
+  font-size: 26px;
   margin: 0.5rem 0rem;
 }
 .contact-info p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0.8rem;
 }
 .location,
@@ -105,8 +107,26 @@ a {
   width: 100%;
   align-items: center;
 }
+.address{
+  display: flex;
+  flex-direction: column;
+}
+.address span{
+  font-size:14px;
+}
+.address span:first-child{
+  font-weight: 500;
+  font-size:16px;
+}
 .phone p {
   margin: 0px;
+}
+.phone-numbers{
+  display: flex;
+  flex-direction: column;
+}
+.phone-numbers span span{
+  font-weight:500;
 }
 .location i,
 .email i,
