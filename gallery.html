@@ -18,12 +18,8 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" /> -->
-  <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 </head>
 
@@ -82,109 +78,75 @@
   <div class="gallerypage">
     <div class="heading">
       <h1>Gallery</h1>
-      
+
     </div>
 
     <div id="tabs">
-        <button class="image-gallery active" id="image-button">Images</button>
-        <button class="video-gallery" id="video-button">Videos</button>
+      <button class="image-gallery active" id="image-button">Images</button>
     </div>
 
-<!-- image gallery -->
+    <!-- image gallery -->
     <div id="image-gallery">
-        <div class="section">
-            <h2 class="title">Image Gallery</h2>
-        </div>
-        
-        <!-- modal -->
-        <div class="modal">
-          <div class="close-modal">&times;</div>
-          <div class="navigate">
-            <img src="./assets/facilities/leftarrow.png" id="navigate-left" onclick="NavigateImages(-1)">
-          </div>
-          <img src="" alt="expanded-img" id="modal-img">
-          <div class="navigate">
-            <img src="./assets/facilities/rightarrow.png" id="navigate-right" onclick="NavigateImages(1)">
-          </div>
-        </div>
-
-        <!-- images -->
-        <img src="./assets/student-support/upcoming-event-1.svg" alt="gallery" class="gallery-image" onclick="imageModal(0)">
-        <img src="./assets/student-support/upcoming-event-2.svg" alt="gallery" class="gallery-image" onclick="imageModal(1)">
-        <img src="./assets/student-support/upcoming-event-3.svg" alt="gallery" class="gallery-image" onclick="imageModal(2)">
-        <img src="./assets/student-support/upcoming-event-1.svg" alt="gallery" class="gallery-image" onclick="imageModal(3)">
-        <img src="./assets/student-support/upcoming-event-2.svg" alt="gallery" class="gallery-image" onclick="imageModal(4)">
-        <img src="./assets/student-support/upcoming-event-3.svg" alt="gallery" class="gallery-image" onclick="imageModal(5)">
-        <img src="./assets/student-support/upcoming-event-1.svg" alt="gallery" class="gallery-image" onclick="imageModal(6)">
-        <img src="./assets/student-support/upcoming-event-2.svg" alt="gallery" class="gallery-image" onclick="imageModal(7)">
-        <img src="./assets/student-support/upcoming-event-3.svg" alt="gallery" class="gallery-image" onclick="imageModal(8)">
-
-    </div>    
-
-    <!-- video gallery -->
-    <div id="video-gallery">
       <div class="section">
-          <h2 class="title">Video Gallery</h2>
+        <h2 class="title">Image Gallery</h2>
       </div>
-      
+
       <!-- modal -->
       <div class="modal">
         <div class="close-modal">&times;</div>
         <div class="navigate">
-          <img src="./assets/facilities/leftarrow.png" id="navigate-left" onclick="NavigateVideo(-1)">
+          <img src="./assets/facilities/leftarrow.png" id="navigate-left" onclick="NavigateImages(-1)">
         </div>
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/yzGyv6xksnM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/yzGyv6xksnM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/yzGyv6xksnM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/yzGyv6xksnM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+        <img src="" alt="expanded-img" id="modal-img">
         <div class="navigate">
-          <img src="./assets/facilities/rightarrow.png" id="navigate-right" onclick="NavigateVideo(1)">
+          <img src="./assets/facilities/rightarrow.png" id="navigate-right" onclick="NavigateImages(1)">
         </div>
       </div>
 
-      <!-- thumbnail for videos -->
-      <img src="./assets/student-support/upcoming-event-1.svg" alt="gallery" class="gallery-video" onclick="videoModal(0)">
-      <img src="./assets/student-support/upcoming-event-2.svg" alt="gallery" class="gallery-video" onclick="videoModal(1)">
-      <img src="./assets/student-support/upcoming-event-3.svg" alt="gallery" class="gallery-video" onclick="videoModal(2)">
-      <img src="./assets/student-support/upcoming-event-1.svg" alt="gallery" class="gallery-video" onclick="videoModal(3)">
-      <img src="./assets/student-support/upcoming-event-2.svg" alt="gallery" class="gallery-video" onclick="videoModal(4)">
-      <img src="./assets/student-support/upcoming-event-3.svg" alt="gallery" class="gallery-video" onclick="videoModal(5)">
-      <img src="./assets/student-support/upcoming-event-1.svg" alt="gallery" class="gallery-video" onclick="videoModal(6)">
-      <img src="./assets/student-support/upcoming-event-2.svg" alt="gallery" class="gallery-video" onclick="videoModal(7)">
-      <img src="./assets/student-support/upcoming-event-3.svg" alt="gallery" class="gallery-video" onclick="videoModal(8)">
+      <!-- images -->
+      <img src="./assets/gallery/img1.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(0)">
+      <img src="./assets/gallery/img2.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(1)">
+      <img src="./assets/gallery/img3.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(2)">
+      <img src="./assets/gallery/img4.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(3)">
+      <img src="./assets/gallery/img5.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(4)">
+      <img src="./assets/gallery/img6.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(5)">
+      <img src="./assets/gallery/img7.jpg" alt="gallery" class="gallery-image"
+        onclick="imageModal(6)">
+    </div>
 
-  </div>    
-
-  <!--Important Updates-->
+    <!--Important Updates-->
   <div class="chatbox">
-      <div class="chatbox__support">
-          <p>Hello</p>
-          <div class="cross">
-              <img src="./assets/home/download-removebg-preview (5).png" alt="">
-          </div>
-          <div class="m-list">
-              <p>Title of Update</p>
-              <a href="#">View</a>
-          </div>
-          <div class="m-list">
-              <p>Title of Update</p>
-              <a href="#">View</a>
-          </div>
-          <div class="m-list">
-              <p>Title of Update</p>
-              <a href="#">View</a>
-          </div>
+    <div class="chatbox__support">
+      <p style="font-size: large;"><b>Important Updates</b></p>
+      <div class="cross">
+        <img src="./assets/home/download-removebg-preview (5).png" alt="" />
       </div>
-      
-      <div class="chatbox__button">
-          <img src="./assets/Questions.svg" alt="" style="width: 20px; height: 20px;"> Updates
+      <br />
+      <div class="m-list">
+        <p>Title 1</p>
+        <a href="#">View</a>
+      </div>
+      <div class="m-list">
+        <p>Title 1</p>
+        <a href="#">View</a>
+      </div>
+      <div class="m-list">
+        <p>Title 1</p>
+        <a href="#">View</a>
       </div>
     </div>
+
+    <div class="chatbox__button" style="width: 140px;">
+      <img src="./assets/floating_icon.png" alt="" style="width: 20px; height: 20px" />
+      Notifications
+    </div>
+  </div>
 
   <footer>
     <!--Footer Section-->
@@ -192,42 +154,36 @@
       <div class="footer-grid">
         <div id="footer-logo">
           <a class="brand" href="index.html">
-            <img
-              class="brand-logo-light"
-              src="./assets/home/gnihm_logo.png"
-              alt=""
-            />
+            <img class="brand-logo-light" src="./assets/home/gnihm_logo.png" alt="" />
           </a>
 
           <h6 id="footer-address">
-            T1,GNI campus Near Radha Swami Satsang, Dahegaon, Kalmeshwar, Road, Nagpur, Maharashtra 441502
+            Guru Nanak Institute of Hotel Management & Catering Studies, Nagpur.
           </h6>
         </div>
 
         <div class="footer-details">
-          <div class="detail">
-            <h1>CONTACT US</h1>
-            <h2>07118-661400</h2>
-          </div>
+          
           <div class="detail">
             <h1>EMAIL ID</h1>
             <h2>gnihmcs@gmail.com</h2>
           </div>
-          <div class="detail connect-us">
+          <br>
+          <div class="detail">
             <h1>CONNECT US</h1>
-
             <ul class="social_footer_ul">
-              <a href="https://www.instagram.com/p/CUY977Go-TL/?utm_medium=copy_link"><img src="./assets/home/instaicon.png" alt="" /></a>
-                <a href="https://www.facebook.com/Guru-Nanak-Institute-of-Hotel-Management-Catering-Studies-Nagpur-112942973771282"
-                  ><img src="./assets/home/facebookicon.png" alt=""
-                /></a>
-                <a href="https://youtu.be/jcQtu8JmBcM"><img src="./assets/home/youtube.svg" alt="" /></a>
+              <a href="https://www.instagram.com/p/CUY977Go-TL/?utm_medium=copy_link"><img
+                  src="./assets/home/instaicon.png" alt="" /></a>
+              <a
+                href="https://www.facebook.com/Guru-Nanak-Institute-of-Hotel-Management-Catering-Studies-Nagpur-112942973771282"><img
+                  src="./assets/home/facebookicon.png" alt="" /></a>
+              <a href="https://youtu.be/jcQtu8JmBcM"><img src="./assets/home/youtube.svg" alt="" /></a>
               <!-- <a href="#"
-                ><img src="./assets/home/twittericon.png" alt=""
-              /></a>
-              <a href="#"
-                ><img src="./assets/home/linkedinicon.png" alt=""
-              /></a> -->
+                  ><img src="./assets/home/twittericon.png" alt=""
+                /></a>
+                <a href="#"
+                  ><img src="./assets/home/linkedinicon.png" alt=""
+                /></a> -->
             </ul>
           </div>
         </div>
@@ -238,19 +194,33 @@
 
             <div class="imp-links">
               <div>
-                <a href="index.html"><dd>Home</dd></a>
-                <a href="about.html"><dd>About</dd></a>
-                <a href="academics.html"><dd>Academics</dd></a>
-                <a href="placement.html"><dd>Placement</dd></a>
-                <a href="facilities.html"><dd>Facilities</dd></a>
+                <a href="about.html">
+                  <dd>About</dd>
+                </a>
+                <a href="academics.html">
+                  <dd>Academics</dd>
+                </a>
+                <a href="placement.html">
+                  <dd>Placement</dd>
+                </a>
+                <a href="facilities.html">
+                  <dd>Facilities</dd>
+                </a>
               </div>
 
               <div>
-                <a href="student-support.html"><dd>Events</dd></a>
-                <a href="gallery.html"><dd>Gallery</dd></a>
-                <a href="blog.html"><dd>Blogs</dd></a>
-                <a href="career.html"><dd>Career</dd></a>
-                <a href="contact.html"><dd>Contact Us</dd></a>
+                <a href="student-support.html">
+                  <dd>Events</dd>
+                </a>
+                <a href="gallery.html">
+                  <dd>Gallery</dd>
+                </a>
+                <a href="career.html">
+                  <dd>Career</dd>
+                </a>
+                <a href="contact.html">
+                  <dd>Contact Us</dd>
+                </a>
               </div>
             </div>
           </dl>
@@ -258,21 +228,21 @@
       </div>
     </div>
     <section id="copyright-text">
-      <span
-        ><span class="copyright"></span> Design & Develop by YUVA Foundation
-        2021. All rights reserved.
+      <span><span class="copyright"></span>
+        Copyright © 2021, Design & Develop by YUVA Foundation WEB TEAM. All Rights Reserved.
       </span>
     </section>
   </footer>
 
-  <!-- <script src="./js/student_support.js"></script> -->
-  <script src="./js/modal.js"></script>
-  <script src="./js/chat.js"></script>
-  <script src="./js/app.js"></script>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
- 
+    <!-- <script src="./js/student_support.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
 </body>
+
 </html>

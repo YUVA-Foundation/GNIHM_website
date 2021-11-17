@@ -1,332 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GNIHM</title>
 
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/chatbot.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GNIHM</title>
 
-  <body>
-    <div class="container justify-content-center">
-      <nav
-        class="
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <link rel="stylesheet" href="./css/navbar.css" />
+  <link rel="stylesheet" href="./css/chatbot.css" />
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+  <div class="container justify-content-center">
+    <nav class="
           navbar navbar-custom navbar-expand-lg navbar-dark
           shadow-5-strong
           fixed-top
-        "
-        style="background: #ff7b31; border-bottom: solid 1px white"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="margin-left: 5%"
-            ><img src="./assets/home/gnihm_logo.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-center"
-            id="navbarSupportedContent"
-          >
-            <ul
-              class="navbar-nav mb-2 mb-lg-0"
-              style="font-size: 1.2rem; font-weight: 500"
-            >
-              <li class="nav-item px-4">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item px-4">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item px-4">
-                <a class="nav-link" href="academics.html">Academics</a>
-              </li>
-              <li class="nav-item px-4">
-                <a class="nav-link" href="placement.html">Placements</a>
-              </li>
-              <li class="nav-item px-4">
-                <a class="nav-link" href="facilities.html">Facilities</a>
-              </li>
-              <li class="nav-item px-4">
-                <a class="nav-link" href="student-support.html"
-                  >Student Support</a
-                >
-              </li>
-              <li class="nav-item px-4 dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >More</a
-                >
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="blog.html">Blogs</a></li>
-                  <li>
-                    <a class="dropdown-item" href="gallery.html">Gallery</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="career.html">Career</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="contact.html">Contact Us</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+        " style="background: #ff7b31; border-bottom: solid 1px white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="margin-left: 5%"><img src="./assets/home/gnihm_logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0" style="font-size: 1.2rem; font-weight: 500">
+            <li class="nav-item px-4">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="academics.html">Academics</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="placement.html">Placements</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="facilities.html">Facilities</a>
+            </li>
+            <li class="nav-item px-4">
+              <a class="nav-link" href="student-support.html">Student Support</a>
+            </li>
+            <li class="nav-item px-4 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">More</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="blog.html">Blogs</a></li>
+                <li>
+                  <a class="dropdown-item" href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="career.html">Career</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
+  </div>
+
+  <!-- HOME SECTION START -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <br /><br /><br /><br />
+        <div class="text-2">
+          <p style="color: #ff7b31;">WELCOME TO</p><br><b>GURUNANAK INSTITUTE OF HOTEL MANAGEMENT</b> <br /><b></b>
+        </div>
+        <br><br>
+        <a href="facilities.html">Campus Tour &nbsp;<i class="fas fa-arrow-right"></i></a>
+      </div>
     </div>
+  </section>
 
-    <!-- HOME SECTION START -->
-    <section class="home" id="home">
-      <div class="max-width">
-        <div class="home-content">
-          <br /><br /><br /><br />
-          <div class="text-2">
-            <b> Guru Nanak Institute Of Hotel</b> <br /><b>Management</b>
-          </div>
-          <div class="text-1">
-            Guru Nanak Institute Of Hotel Management is a prime hotel
-            management<br />
-            college in Kolkata under the JIS
-          </div>
-          <a href="#">Campus Tour &nbsp;<i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </section>
-
-    <!--ABOUT SECTION START-->
-    <section class="about-section">
-      <div class="about-content">
-        <div class="column left">
-          <div class="text">
-            <h1>Bring yourself to Guru Nanak Institute Of Hotel Management</h1>
-          </div>
-          <br />
-          <p>
-            Guru Nanak Education Society, Nagpur came into existence in 2006.
-            Guru Nanak Educational Society, Nagpur is headed by Sardar Navneet
-            Singhji Tuli our beloved and revered CMD, a renowned politician and
-            social worker who is dedicated to light the lamp of education in the
-            society and has proven his excellence in doing so by setting up
-            different technical and management study centers. GNIT & GNIET are
-            some prominent ventures running successfully under his guidance .
-            And now GNIHMCS is another feather added to GNI’s cap!
-          </p>
-          <br />
-          <p>
-            The institute has a sprawling lush green campus in the vicinity of
-            MIDC, Kalmeshwar, with high-end, well equipped laboratories; well
-            qualified, knowledgeable and experienced faculty members; Smart
-            classrooms and a practical approach to education. Extra- curricular
-            activities are encouraged to help students to exhibit and sharpen
-            their various skills. The college is affiliated to Kavi Kulguru
-            Kalidas Sanskrit University, Ramtek. It is our constant endeavor to
-            ignite the inner passion of the students towards hospitality and
-            sculpt them into world-class hospitality professionals.
-          </p>
-          <br />
-          <p>
-            Hospitality industry is growing by leaps and bounds in and around
-            Nagpur region and we at GNIHMCS would like to contribute to its
-            growth story! There is a vacuum of trained hospitality graduates
-            with courteous attitudes that we wish to fill. At GNIHMCS
-            hospitality isn't just a profession….it's our passion!
-          </p>
-          <div class="cen">
-            <a href="">Know more &nbsp;<i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="column right">
-          <div class="strip1"></div>
-          <img src="./assets/home/about.png" alt="" />
-          <div class="strip2"></div>
-        </div>
-      </div>
-    </section>
-
-    <!--COURSE LIST-->
-    <section class="academy">
-      <div class="outer-wrap">
-        <h2 class="common-head">Welcome To The Academy</h2>
-        <p class="common-subhead">Choose from the finest</p>
-        <div class="cent">
-          <a href="./Resume Cv/Resume- Dark.pdf"
-            >See all courses &nbsp;<i class="fas fa-arrow-right"></i
-          ></a>
+  <!--ABOUT SECTION START-->
+  <section class="about-section">
+    <div class="about-content">
+      <div class="column left">
+        <div class="text">
+          <h1>Bring yourself to Guru Nanak Institute Of Hotel Management</h1>
         </div>
         <br />
         <p>
-          Guru Nanak Education Society, Nagpur came into existence in 2006. Guru Nanak Educational Society, Nagpur is headed by Sardar Navneet Singhji Tuli our beloved and revered CMD, a renowned politician and social worker who is dedicated to light the lamp of education in the society and has proven his excellence in doing so by setting up different technical and management study centers. GNIT & GNIET are some prominent ventures running successfully under his guidance . And now GNIHMCS is another feather added to GNI’s cap! 
+          Guru Nanak Education Society, Nagpur came into existence in 2006.
+          Guru Nanak Educational Society, Nagpur is headed by Sardar Navneet
+          Singhji Tuli our beloved and revered CMD, a renowned politician and
+          social worker who is dedicated to light the lamp of education in the
+          society and has proven his excellence in doing so by setting up
+          different technical and management study centers. GNIT & GNIET are
+          some prominent ventures running successfully under his guidance .
+          And now GNIHMCS is another feather added to GNI’s cap!
         </p>
         <br />
         <p>
-          The institute has a sprawling lush green campus in the vicinity of MIDC, Kalmeshwar, with high-end, well equipped laboratories; well qualified, knowledgeable and experienced faculty members; Smart classrooms and a practical approach to education. Extra- curricular activities are encouraged to help students to exhibit and sharpen their various skills. The college is affiliated to Kavi Kulguru Kalidas Sanskrit University, Ramtek. It is our constant endeavor to ignite the inner passion of the students towards hospitality and sculpt them into world-class hospitality professionals. 
+          The institute has a sprawling lush green campus in the vicinity of
+          MIDC, Kalmeshwar, with high-end, well equipped laboratories; well
+          qualified, knowledgeable and experienced faculty members; Smart
+          classrooms and a practical approach to education. Extra- curricular
+          activities are encouraged to help students to exhibit and sharpen
+          their various skills. The college is affiliated to Kavi Kulguru
+          Kalidas Sanskrit University, Ramtek. It is our constant endeavor to
+          ignite the inner passion of the students towards hospitality and
+          sculpt them into world-class hospitality professionals.
         </p>
-        <br/>
+        <br />
         <p>
-          Hospitality industry is growing by leaps and bounds in and around Nagpur region and we at GNIHMCS would like to contribute to its growth story! There is a vacuum of trained hospitality graduates with courteous attitudes that we wish to fill.
+          Hospitality industry is growing by leaps and bounds in and around
+          Nagpur region and we at GNIHMCS would like to contribute to its
+          growth story! There is a vacuum of trained hospitality graduates
+          with courteous attitudes that we wish to fill. At GNIHMCS
+          hospitality isn't just a profession….it's our passion!
         </p>
-        <br/>
-        <p>At GNIHMCS hospitality isn't just a profession….it's our passion!
-        <div class="content">
-          <section class="cards">
-            <div class="owl-carousel owl-theme carousel-1">
-              <div>
-                <article class="card">
-                  <a href="#">
-                    <div class="thumbnail">
-                      <img src="./assets/home/course.png" />
-                      <div class="triangle">3 years</div>
-                    </div>
-                    <div class="card-content">
-                      <h2>Master in culinary Science</h2>
-                      <p>
-                        Some important points about this course can be mentioned
-                      </p>
-                      <button href="#" class="know">
-                        Know more &nbsp;<i class="fas fa-arrow-right"></i>
-                      </button>
-                    </div>
-                    <!-- .card-content -->
-                  </a>
-                </article>
-                <!-- .card -->
-              </div>
-
-              <div>
-                <article class="card">
-                  <a href="#">
-                    <div class="thumbnail">
-                      <img src="./assets/home/course.png" />
-                      <div class="triangle">3 years</div>
-                    </div>
-                    <div class="card-content">
-                      <h2>Master in culinary Science</h2>
-                      <p>
-                        Some important points about this course can be mentioned
-                      </p>
-                      <button href="#" class="know">
-                        Know more &nbsp;<i class="fas fa-arrow-right"></i>
-                      </button>
-                    </div>
-                    <!-- .card-content -->
-                  </a>
-                </article>
-                <!-- .card -->
-              </div>
-
-              <div>
-                <article class="card">
-                  <a href="#">
-                    <div class="thumbnail">
-                      <img src="./assets/home/course.png" />
-                      <div class="triangle">3 years</div>
-                    </div>
-                    <div class="card-content">
-                      <h2>Master in culinary Science</h2>
-                      <p>
-                        Some important points about this course can be mentioned
-                      </p>
-                      <button href="#" class="know">
-                        Know more &nbsp;<i class="fas fa-arrow-right"></i>
-                      </button>
-                    </div>
-                    <!-- .card-content -->
-                  </a>
-                </article>
-                <!-- .card -->
-              </div>
-
-              <div>
-                <article class="card">
-                  <a href="#">
-                    <div class="thumbnail">
-                      <img src="./assets/home/course.png" />
-                      <div class="triangle">3 years</div>
-                    </div>
-                    <div class="card-content">
-                      <h2>Master in culinary Science</h2>
-                      <p>
-                        Some important points about this course can be mentioned
-                      </p>
-                      <button href="#" class="know">
-                        Know more &nbsp;<i class="fas fa-arrow-right"></i>
-                      </button>
-                    </div>
-                    <!-- .card-content -->
-                  </a>
-                </article>
-                <!-- .card -->
-              </div>
-            </div>
-          </section>
-          <!-- .cards -->
-        </div>
-        <!-- .content -->
-      </div>
-      <!-- .outer-wrap -->
-    </section>
-
-    <!-- KNOW US MORE-->
-    <section class="know_more">
-      <div id="know_more_us">
-        <h2>Know us more</h2>
-        <p>
-          Guru Nanak Institute of Hotel Management is a prime hotel management
-          college in Kolkata under the JIS Group Educational Initiatives. GNIHM
-          has one of the best and biggest infrastructures in the city and is
-          affiliated to National Council for Hotel Management and Catering
-          Technology, Ministry of Tourism, Govt of India, New Delhi.
-        </p>
-        <div class="cent">
-          <a href="">Download Brochure &nbsp;<i class="fas fa-download"></i></a>
+        <div class="cen">
+          <a href="about.html">Know more &nbsp;<i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
-    </section>
+      <div class="column right">
+        <div class="strip1"></div>
+        <img src="./assets/home/campus_tour/tour2.jpg" alt="" />
+        <div class="strip2"></div>
+      </div>
+    </div>
+  </section>
 
   <!--COURSE LIST-->
   <section class="academy">
@@ -334,8 +149,37 @@
       <h2 class="common-head">Welcome To The Academy</h2>
       <p class="common-subhead">Choose from the finest</p>
       <div class="cent">
-        <a href="./Resume Cv/Resume- Dark.pdf">See all courses &nbsp;<i class="fas fa-arrow-right"></i></a>
+        <a href="academics.html">See all Branches &nbsp;<i class="fas fa-arrow-right"></i></a>
       </div>
+      <br />
+      <div style="padding-left: 2rem; padding-right: 2rem;">
+      <p>
+        Guru Nanak Education Society, Nagpur came into existence in 2006. Guru Nanak Educational Society, Nagpur is
+        headed by Sardar Navneet Singhji Tuli our beloved and revered CMD, a renowned politician and social worker who
+        is dedicated to light the lamp of education in the society and has proven his excellence in doing so by setting
+        up different technical and management study centers. GNIT & GNIET are some prominent ventures running
+        successfully under his guidance . And now GNIHMCS is another feather added to GNI’s cap!
+      </p>
+      <br />
+      <p>
+        The institute has a sprawling lush green campus in the vicinity of MIDC, Kalmeshwar, with high-end, well
+        equipped laboratories; well qualified, knowledgeable and experienced faculty members; Smart classrooms and a
+        practical approach to education. Extra- curricular activities are encouraged to help students to exhibit and
+        sharpen their various skills. The college is affiliated to Kavi Kulguru Kalidas Sanskrit University, Ramtek. It
+        is our constant endeavor to ignite the inner passion of the students towards hospitality and sculpt them into
+        world-class hospitality professionals.
+      </p>
+      <br />
+      <p>
+        Hospitality industry is growing by leaps and bounds in and around Nagpur region and we at GNIHMCS would like to
+        contribute to its growth story! There is a vacuum of trained hospitality graduates with courteous attitudes that
+        we wish to fill.
+      </p>
+      <br />
+      <p>At GNIHMCS hospitality isn't just a profession….it's our passion!
+      </p>
+      </div>
+
       <div class="content">
         <section class="cards">
           <div class="owl-carousel owl-theme carousel-1">
@@ -347,57 +191,13 @@
                     <div class="triangle">3 years</div>
                   </div>
                   <div class="card-content">
-                    <h2>B.Sc Hospitality Studies</h2>
-                    <p>
-                      Affiliated to Kavikulguru Kalidas Sanskrit University, Ramtek
-                    </p>
-                    <button href="#" class="know">
+                    <h2>Food Production</h2>
+                    <br>  
+                    <a href="academics.html">
+                      <button class="know">
                       Know more &nbsp;<i class="fas fa-arrow-right"></i>
                     </button>
-                  </div>
-                  <!-- .card-content -->
-                </a>
-              </article>
-              <!-- .card -->
-            </div>
-
-            <div>
-              <article class="card">
-                <a href="#">
-                  <div class="thumbnail">
-                    <img src="./assets/home/course.png" />
-                    <div class="triangle">1 1/2 years</div>
-                  </div>
-                  <div class="card-content">
-                    <h2>Diploma in Hospitality studies</h2>
-                    <p>
-                      Affiliated to Kavikulguru Kalidas Sanskrit University, Ramtek
-                    </p>
-                    <button href="#" class="know">
-                      Know more &nbsp;<i class="fas fa-arrow-right"></i>
-                    </button>
-                  </div>
-                  <!-- .card-content -->
-                </a>
-              </article>
-              <!-- .card -->
-            </div>
-
-            <div>
-              <article class="card">
-                <a href="#">
-                  <div class="thumbnail">
-                    <img src="./assets/home/course.png" />
-                    <div class="triangle">6 months</div>
-                  </div>
-                  <div class="card-content">
-                    <h2>Certificate courses run by college</h2>
-                    <p>
-                      courses offered by the college in the following disciplines:
-                      Culinary art...</p>
-                    <button href="#" class="know">
-                      Know more &nbsp;<i class="fas fa-arrow-right"></i>
-                    </button>
+                  </a>
                   </div>
                   <!-- .card-content -->
                 </a>
@@ -413,13 +213,56 @@
                     <div class="triangle">3 years</div>
                   </div>
                   <div class="card-content">
-                    <h2>Master in culinary Science</h2>
-                    <p>
-                      Some important points about this course can be mentioned
-                    </p>
+                    <h2>Bakery and confectionary</h2>
+                    <br>
+                    <a href="academics.html">
                     <button href="#" class="know">
                       Know more &nbsp;<i class="fas fa-arrow-right"></i>
                     </button>
+                  </a>
+                  </div>
+                  <!-- .card-content -->
+                </a>
+              </article>
+              <!-- .card -->
+            </div>
+
+            <div>
+              <article class="card">
+                <a href="#">
+                  <div class="thumbnail">
+                    <img src="./assets/home/course.png" />
+                    <div class="triangle">3 years</div>
+                  </div>
+                  <div class="card-content">
+                    <h2>Food & Beverage Service</h2>
+                    <br>
+                    <a href="academics.html"><button href="#" class="know">
+                      Know more &nbsp;<i class="fas fa-arrow-right"></i>
+                    </button>
+                  </a>
+                  </div>
+                  <!-- .card-content -->
+                </a>
+              </article>
+              <!-- .card -->
+            </div>
+
+            <div>
+              <article class="card">
+                <a href="#">
+                  <div class="thumbnail">
+                    <img src="./assets/home/course.png" />
+                    <div class="triangle">3 years</div>
+                  </div>
+                  <div class="card-content">
+                    <h2>Housekeeping</h2>
+                    <br>
+                    <a href="academics.html">
+                    <button href="#" class="know">
+                      Know more &nbsp;<i class="fas fa-arrow-right"></i>
+                    </button>
+                  </a>
                   </div>
                   <!-- .card-content -->
                 </a>
@@ -441,7 +284,7 @@
       <h2>Know us more</h2>
       <p>
         Guru Nanak Institute of Hotel Management is a prime hotel management
-        college in Kolkata under the JIS Group Educational Initiatives. GNIHM
+        college in Nagpur. GNIHM
         has one of the best and biggest infrastructures in the city and is
         affiliated to National Council for Hotel Management and Catering
         Technology, Ministry of Tourism, Govt of India, New Delhi.
@@ -455,190 +298,121 @@
   <section class="why">
     <h2 class="titl">Why GNIHM?</h2>
     <p>GNIHM provides the best facilities and quality training</p>
-    <div class="wrapper-1">
-      <div class="wrapper-2">
-        <div class="sub-wrap-left">
-          <img src="./assets/home/why_gnihm_svg.svg" alt="" />
-        </div>
-        <div class="sub-wrap-right">
-          <div class="txt">
-            <h1>Best infrastructure in Central India.</h1>
-          </div>
-          <div class="sub-wrap-right">
-            <div class="txt">
-              <h1>Best Infrastructre</h1>
-            </div>
-
-          <h3>
-            On premises Hostel facilities (girls & boys) 
-            Gymnasium & Recreational centers.
-            State of the art Auditorium.
-          </h3>
-        </div>
-      </div>
-      <div class="wrapper-2">
-        <div class="sub-wrap-left">
-          <img src="./assets/home/why_gnihm_svg.svg" alt="" />
-        </div>
-        <div class="sub-wrap-right">
-          <div class="txt">
-            <h1>Experienced faculty</h1>
-          </div>
-          <div class="sub-wrap-right">
-            <div class="txt">
-              <h1>Best Infrastructre</h1>
-            </div>
-
-          <h3>
-            Experienced faculty members, Excellent staff to student ratio, Industry exposure 
-            Group owned Hotels and restaurants.
-          </h3>
-        </div>
-      </div>
-      <div class="wrapper-2">
-        <div class="sub-wrap-left">
-          <img src="./assets/home/why_gnihm_svg.svg" alt="" />
-        </div>
-        <div class="sub-wrap-right">
-          <div class="txt">
-            <h1>Best Laboratories</h1>
-          </div>
-          <div class="sub-wrap-right">
-            <div class="txt">
-              <h1>Best Infrastructre</h1>
-            </div>
-
-          <h3>
-            Research Labs, 
-            Language Labs, 
-            High tech Computer Labs,
-            Modern Food Production Labs.
-          </h3>
-        </div>
-      </div>
-      <div class="wrapper-2">
-        <div class="sub-wrap-left">
-          <img src="./assets/home/why_gnihm_svg.svg" alt="" />
-        </div>
-        <div class="sub-wrap-right">
-          <div class="txt">
-            <h1>Smart Classrooms & Libraries</h1>
-          </div>
-          <div class="sub-wrap-right">
-            <div class="txt">
-              <h1>Best Infrastructre</h1>
-            </div>
-
-          <h3>
-            Theatre style classroom, Digital Classroom and Library, Personalized attention, Smaller batches for all practical’s
-          </h3>
-        </div>
-      </div>
-      <div class="wrapper-2">
-        <div class="sub-wrap-left">
-          <img src="./assets/home/why_gnihm_svg.svg" alt="" />
-        </div>
-        <div class="sub-wrap-right">
-          <div class="txt">
-            <h1>Weekly competitions </h1>
-          </div>
-          <div class="sub-wrap-right">
-            <div class="txt">
-              <h1>Best Infrastructre</h1>
-            </div>
-
-          <h3>
-            curricular & extracurricular activities,Student of the month award,
-            100% Attendance award,            
-          </h3>
-        </div>
-      </div>
-      <div class="wrapper-2">
-        <div class="sub-wrap-left">
-          <img src="./assets/home/why_gnihm_svg.svg" alt="" />
-        </div>
-        <div class="sub-wrap-right">
-          <div class="txt">
-            <h1>Internships abroad</h1>
-          </div>
-          <h3>
-            Regular industrial visits to hotels, hospitals & food industries, ODC’s to five star properties, Summer/ winter internships, 100% job assistance
-
-          </h3>
-            <h3>
-              GNIHM provides the best facilities and quality training GNIHM
-              provides the.
-            </h3>
-          </div>
-        </div>
-        <div class="wrapper-2">
+      <div class="row text-center">
+  
+        <div class="col-sm-4">
           <div class="sub-wrap-left">
             <img src="./assets/home/why_gnihm_svg.svg" alt="" />
           </div>
           <div class="sub-wrap-right">
             <div class="txt">
-              <h1>Best Infrastructre</h1>
-            </div>
-            <h3>
-              GNIHM provides the best facilities and quality training GNIHM
-              provides the.
-            </h3>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--CAMPUS TOUR STARTS-->
-    <section class="campus">
-      <h2 class="common-head">Virtual campus tour</h2>
-      <p class="common-subhead">
-        GNIHM provides the best facilities and quality training
-      </p>
-      <div class="cent">
-        <a href="">Know more &nbsp;<i class="fas fa-arrow-right"></i></a>
-      </div>
-      <div class="campuscards">
-        <div class="owl-carousel owl-theme carousel-2">
-          <div>
-            <div class="campuscard">
-              <img
-                src="./assets/home/campus_tour/campus_1.png"
-                alt="academic facility"
-              />
-            </div>
-          </div>
-          <div>
-            <div class="campuscard">
-              <img
-                src="./assets/home/campus_tour/campus_2.png"
-                alt="academic facility"
-              />
-            </div>
-          </div>
-          <div>
-            <div class="campuscard">
-              <img
-                src="./assets/home/campus_tour/campus_1.png"
-                alt="academic facility"
-              />
-            </div>
-          </div>
-          <div>
-            <div class="campuscard">
-              <img
-                src="./assets/home/campus_tour/campus_2.png"
-                alt="academic facility"
-              />
+              <br>
+              <h1>Best infrastructure in Central India.</h1>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+  
+        <div class="col-sm-4">
+          <div class="sub-wrap-left">
+            <img src="./assets/home/why_gnihm_svg.svg" alt="" />
+          </div>
+          <div class="sub-wrap-right">
+            <div class="txt">
+              <br>
+              <h1>Experienced Faculty</h1>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="sub-wrap-left">
+            <img src="./assets/home/why_gnihm_svg.svg" alt="" />
+          </div>
+          <div class="sub-wrap-right">
+            <div class="txt">
+              <br>
+              <h1>Best Laboratories</h1>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="sub-wrap-left">
+            <img src="./assets/home/why_gnihm_svg.svg" alt="" />
+          </div>
+          <div class="sub-wrap-right">
+            <div class="txt">
+              <br>
+              <h1>Smart Classrooms & Libraries</h1>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="sub-wrap-left">
+            <img src="./assets/home/why_gnihm_svg.svg" alt="" />
+          </div>
+          <div class="sub-wrap-right">
+            <div class="txt">
+              <br>
+              <h1>Weekly Competitions</h1>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-4">
+          <div class="sub-wrap-left">
+            <img src="./assets/home/why_gnihm_svg.svg" alt="" />
+          </div>
+          <div class="sub-wrap-right">
+            <div class="txt">
+              <br>
+              <h1>Internships abroad</h1>
+            </div>
+          </div>
+        </div>
+  
+  </section>
 
-    <div class="news-and-awards">
-      <!-- NEWS -->
-      <section class="news-section">
-        <h2 class="common-head">News</h2>
+  <!--CAMPUS TOUR STARTS-->
+  <section class="campus">
+    <h2 class="common-head">Virtual campus tour</h2>
+    <p class="common-subhead">
+      GNIHM provides the best facilities and quality training
+    </p>
+    <div class="cent">
+      <a href="">Know more &nbsp;<i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="campuscards">
+      <div class="owl-carousel owl-theme carousel-2">
+        <div>
+          <div class="campuscard">
+            <img src="./assets/home/campus_tour/tour1.jpg" alt="academic facility" />
+          </div>
+        </div>
+        <div>
+          <div class="campuscard">
+            <img src="./assets/home/campus_tour/tour2.jpg" alt="academic facility" />
+          </div>
+        </div>
+        <div>
+          <div class="campuscard">
+            <img src="./assets/home/campus_tour/tour3.jpg" alt="academic facility" />
+          </div>
+        </div>
+        <div>
+          <div class="campuscard">
+            <img src="./assets/home/campus_tour/tour4.jpg" alt="academic facility" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="news-and-awards">
+    <!-- NEWS -->
+    <section class="news-section">
+      <h2 class="common-head">News</h2>
 
       <div style="display: flex; justify-content: center; align-items: center">
         <div>
@@ -648,7 +422,8 @@
           <div class="news-card">
             <img src="./assets/home/news_and_awards.png" alt="news" />
             <h4 class="news-headline">
-              Celebrity Chef Vishnu Manohar Interacting with GNIHMCS students</h4>
+              Created history with 100% placement, See our story
+            </h4>
             <h5 class="news-desc">
               Guru Nanak Institute of Hotel Management is a prime hotel
               Management is a prime hotel
@@ -659,563 +434,410 @@
             <div class="news-card">
               <img src="./assets/home/news_and_awards.png" alt="news" />
               <h4 class="news-headline">
-                Webinar on career prospects after Hotel management </h4>
-              <h5 class="news-desc">
-                Webinar on career prospects after Hotel management by Mr Rakesh Mishra, Training & Placement officer, Radisson Blu, Nagpur.
-
-              </h5>
-              <p class="news-date">18 June, 2021</p>
-            </div>
-            <div class="news-carousel">
-              <div class="news-card">
-                <img src="./assets/home/news_and_awards.png" alt="news" />
-                <h4 class="news-headline">
-                  Created history with 100% placement, See our story
-                </h4>
-                <h5 class="news-desc">
-                  Guru Nanak Institute of Hotel Management is a prime hotel
-                  Management is a prime hotel
-                </h5>
-                <p class="news-date">18 June, 2021</p>
-              </div>
-
-            <div class="news-card">
-              <img src="./assets/home/news_and_awards.png" alt="news" />
-              <h4 class="news-headline">
-                Webinar on Public speaking by Dr Pallavi Komawar</h4>
-              <h5 class="news-desc">
-                Webinar on Public speaking by Dr Pallavi Komawar
-              </h5>
-            </div>
-
-            <div class="news-card">
-              <img src="./assets/home/news_and_awards.png" alt="news" />
-              <h4 class="news-headline">
-                Organised Summer internship for students during pandemic
-              </h4>
-              <h5 class="news-desc">
-                Organised Summer internship for students during pandemic
-              </h5>
-            </div>
-
-            <div class="awards-card">
-              <img src="./assets/home/news_and_awards.png" alt="awards" />
-              <h4 class="awards-headline">
                 Created history with 100% placement, See our story
               </h4>
-              <h5 class="awards-desc">
+              <h5 class="news-desc">
                 Guru Nanak Institute of Hotel Management is a prime hotel
                 Management is a prime hotel
               </h5>
+              <p class="news-date">18 June, 2021</p>
+            </div>
+
+            <div class="news-card">
+              <img src="./assets/home/news_and_awards.png" alt="news" />
+              <h4 class="news-headline">
+                Created history with 100% placement, See our story
+              </h4>
+              <h5 class="news-desc">
+                Guru Nanak Institute of Hotel Management is a prime hotel
+                Management is a prime hotel
+              </h5>
+              <p class="news-date">19 June, 2021</p>
+            </div>
+
+            <div class="news-card">
+              <img src="./assets/home/news_and_awards.png" alt="news" />
+              <h4 class="news-headline">
+                Created history with 100% placement, See our story
+              </h4>
+              <h5 class="news-desc">
+                Guru Nanak Institute of Hotel Management is a prime hotel
+                Management is a prime hotel
+              </h5>
+              <p class="news-date">20 June, 2021</p>
             </div>
           </div>
-          <div>
-            <img
-              src="./assets/Facilities/rightarrow.png"
-              id="awards-arrow-right"
-              onclick="awardsCarousel(1)"
-            />
+        </div>
+        <div>
+          <img src="./assets/Facilities/rightarrow.png" id="news-arrow-right" onclick="newsCarousel(1)" />
+        </div>
+      </div>
+    </section>
+
+    <!-- awards section -->
+    <section class="awards-section">
+      <h2 class="common-head">Awards</h2>
+
+      <div style="display: flex; justify-content: center; align-items: center">
+        <div>
+          <img src="./assets/Facilities/leftarrow.png" id="awards-arrow-left" onclick="awardsCarousel(-1)" />
+        </div>
+        <div class="awards-carousel">
+          <div class="awards-card">
+            <img src="./assets/home/news_and_awards.png" alt="awards" />
+            <h4 class="awards-headline">
+              Created history with 100% placement, See our story
+            </h4>
+            <h5 class="awards-desc">
+              Guru Nanak Institute of Hotel Management is a prime hotel
+              Management is a prime hotel
+            </h5>
+          </div>
+
+          <div class="awards-card">
+            <img src="./assets/home/news_and_awards.png" alt="awards" />
+            <h4 class="awards-headline">
+              Created history with 100% placement, See our story
+            </h4>
+            <h5 class="awards-desc">
+              Guru Nanak Institute of Hotel Management is a prime hotel
+              Management is a prime hotel
+            </h5>
+          </div>
+
+          <div class="awards-card">
+            <img src="./assets/home/news_and_awards.png" alt="awards" />
+            <h4 class="awards-headline">
+              Created history with 100% placement, See our story
+            </h4>
+            <h5 class="awards-desc">
+              Guru Nanak Institute of Hotel Management is a prime hotel
+              Management is a prime hotel
+            </h5>
           </div>
         </div>
-      </section>
+        <div>
+          <img src="./assets/Facilities/rightarrow.png" id="awards-arrow-right" onclick="awardsCarousel(1)" />
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Gallery -->
+
+  <section class="gallery-section">
+    <h2 class="common-head">Gallery</h2>
+    <p class="common-subhead">
+      GNIHM provides the best facilities and quality training
+    </p>
+    <div class="cent">
+      <a href="gallery.html">View Gallery &nbsp;<i class="fas fa-arrow-right"></i></a>
     </div>
-
-    <!-- TESTIMONIALS -->
-    <section class="testimonial">
-      <h2 class="common-head">Testimonials</h2>
-      <p class="common-subhead">
-        GNIHM provides the best facilities and quality training
-      </p>
-      <div class="testimonialcards">
-        <div class="owl-carousel owl-theme testimonial-carousel">
-          <div>
-            <div class="testimonialcard">
-              <div class="img-div">
-                <img id="bckstyle" src="./assets/home/bckstyle.png" alt="" />
-                <img
-                  id="face"
-                  src="./assets/home/about.png"
-                  alt="academic facility"
-                />
-              </div>
-              <h2>Hella Grodievsky, Taj Hotel</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae, quis?
-              </p>
-            </div>
-          </div>
-          <div>
-            <div class="testimonialcard">
-              <div class="img-div">
-                <img id="bckstyle" src="./assets/home/bckstyle.png" alt="" />
-                <img
-                  id="face"
-                  src="./assets/home/about.png"
-                  alt="academic facility"
-                />
-              </div>
-
-              <h2>Hella Grodievsky, Taj Hotel</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae, quis?
-              </p>
-            </div>
-          </div>
-          <div>
-            <div class="testimonialcard">
-              <div class="img-div">
-                <img id="bckstyle" src="./assets/home/bckstyle.png" alt="" />
-                <img
-                  id="face"
-                  src="./assets/home/about.png"
-                  alt="academic facility"
-                />
-              </div>
-              <h2>Hella Grodievsky, Taj Hotel</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae, quis?
-              </p>
-            </div>
-          </div>
-          <div>
-            <div class="testimonialcard">
-              <div class="img-div">
-                <img id="bckstyle" src="./assets/home/bckstyle.png" alt="" />
-                <img
-                  id="face"
-                  src="./assets/home/about.png"
-                  alt="academic facility"
-                />
-              </div>
-              <h2>Hella Grodievsky, Taj Hotel</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae, quis?
-              </p>
-            </div>
-          </div>
-          <div>
-            <div class="testimonialcard">
-              <div class="img-div">
-                <img id="bckstyle" src="./assets/home/bckstyle.png" alt="" />
-                <img
-                  id="face"
-                  src="./assets/home/about.png"
-                  alt="academic facility"
-                />
-              </div>
-
-              <h2>Hella Grodievsky, Taj Hotel</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae, quis?
-              </p>
-            </div>
-          </div>
+    <div id="gallery">
+      <!-- modal -->
+      <div class="modals">
+        <div class="close-modal-button">&times;</div>
+        <div class="navigate">
+          <img src="./assets/facilities/leftarrow.png" id="navigate-left" onclick="NavigateVideo(-1)" />
         </div>
-      </div>
-    </section>
-    <section class="gallery-section">
-      <h2 class="common-head">Gallery</h2>
-      <p class="common-subhead">
-        GNIHM provides the best facilities and quality training
-      </p>
-      <div class="cent">
-        <a href="">View Gallery &nbsp;<i class="fas fa-arrow-right"></i></a>
-      </div>
-      <div id="gallery">
-        <!-- modal -->
-        <div class="modals">
-          <div class="close-modal-button">&times;</div>
-          <div class="navigate">
-            <img
-              src="./assets/facilities/leftarrow.png"
-              id="navigate-left"
-              onclick="NavigateVideo(-1)"
-            />
-          </div>
-          <img
-            src="./assets/student-support/upcoming-event-1.svg"
-            alt="gallery"
-            class="modal-video"
-          />
-          <iframe
-            src="https://www.youtube.com/embed/yzGyv6xksnM"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            class="modal-video"
-          ></iframe>
-          <img
-            src="./assets/student-support/upcoming-event-3.svg"
-            alt="gallery"
-            class="modal-video"
-          />
-          <iframe
-            src="https://www.youtube.com/embed/yzGyv6xksnM"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            class="modal-video"
-          ></iframe>
-          <iframe
-            src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            class="modal-video"
-          ></iframe>
-          <img
-            src="./assets/student-support/upcoming-event-3.svg"
-            alt="gallery"
-            class="modal-video"
-          />
-          <iframe
-            src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            class="modal-video"
-          ></iframe>
-          <img
-            src="./assets/student-support/upcoming-event-2.svg"
-            alt="gallery"
-            class="modal-video"
-          />
-          <div class="navigate">
-            <img
-              src="./assets/facilities/rightarrow.png"
-              id="navigate-right"
-              onclick="NavigateVideo(1)"
-            />
-          </div>
-        </div>
-
-        <!-- thumbnail for gallery -->
-        <img
-          src="./assets/student-support/upcoming-event-1.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(0)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-2.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(1)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-3.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(2)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-1.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(3)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-2.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(4)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-3.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(5)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-1.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(6)"
-        />
-        <img
-          src="./assets/student-support/upcoming-event-2.svg"
-          alt="gallery"
-          class="gallery-video"
-          onclick="videoModal(7)"
-        />
-      </div>
-    </section>
-    <section class="alumni-stories">
-      <h2 class="common-head">Alumni Stories</h2>
-      <p class="common-subhead">
-        GNIHM provides the best facilities and quality training
-      </p>
-      <div class="alumnicards">
-        <div class="owl-carousel owl-theme alumni-carousel">
-          <div>
-            <div class="alumnicard">
-              <div class="maingrid">
-                <div class="profile">
-                  <img src="./assets/home/about.png" alt="" />
-                  <h2>Hella Grodievksy, Taj Hotel</h2>
-                </div>
-                <div class="story">
-                  <h1>Journey of Hella from GNHIM to Taj</h1>
-                  <p>
-                    Guru Nanak Institute of Hotel Management is a prime hotel
-                    management college in Kolkata under the JIS Group
-                    Educational Initiatives. GNIHM has one of the best and
-                    biggest infrastructures in the city Guru Nanak Institute of
-                    Hotel Management is a prime hotel management college in
-                    Kolkata under the JIS Group Educational Initiatives. GNIHM
-                    has one of the best and biggest infrastructures in the city
-                    Guru Nanak Institute of Hotel Management is a prime hotel
-                    management college in Kolkata under the JIS Group
-                    Educational Initiatives. GNIHM has one of the best and
-                    biggest infrastructures in the city
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="alumnicard">
-              <div class="maingrid">
-                <div class="profile">
-                  <img src="./assets/home/about.png" alt="" />
-                  <h2>Hella Grodievksy, Taj Hotel</h2>
-                </div>
-                <div class="story">
-                  <h1>Journey of Hella from GNHIM to Taj</h1>
-                  <p>
-                    Guru Nanak Institute of Hotel Management is a prime hotel
-                    management college in Kolkata under the JIS Group
-                    Educational Initiatives. GNIHM has one of the best and
-                    biggest infrastructures in the city Guru Nanak Institute of
-                    Hotel Management is a prime hotel management college in
-                    Kolkata under the JIS Group Educational Initiatives. GNIHM
-                    has one of the best and biggest infrastructures in the city
-                    Guru Nanak Institute of Hotel Management is a prime hotel
-                    management college in Kolkata under the JIS Group
-                    Educational Initiatives. GNIHM has one of the best and
-                    biggest infrastructures in the city
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="alumnicard">
-              <div class="maingrid">
-                <div class="profile">
-                  <img src="./assets/home/about.png" alt="" />
-                  <h2>Hella Grodievksy, Taj Hotel</h2>
-                </div>
-                <div class="story">
-                  <h1>Journey of Hella from GNHIM to Taj</h1>
-                  <p>
-                    Guru Nanak Institute of Hotel Management is a prime hotel
-                    management college in Kolkata under the JIS Group
-                    Educational Initiatives. GNIHM has one of the best and
-                    biggest infrastructures in the city Guru Nanak Institute of
-                    Hotel Management is a prime hotel management college in
-                    Kolkata under the JIS Group Educational Initiatives. GNIHM
-                    has one of the best and biggest infrastructures in the city
-                    Guru Nanak Institute of Hotel Management is a prime hotel
-                    management college in Kolkata under the JIS Group
-                    Educational Initiatives. GNIHM has one of the best and
-                    biggest infrastructures in the city
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="placement">
-      <h2 class="common-head">Placement Partners</h2>
-      <p class="common-subhead">
-        GNIHM provides the best facilities and quality training
-      </p>
-      <div class="placementcards">
-        <div class="owl-carousel owl-theme placement-carousel">
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_1.png" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_2.png" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_3.png" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_4.png" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_5.png" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_2.png" alt="" />
-            </div>
-          </div>
-          <div>
-            <div class="placementcard">
-              <img src="./assets/home/placement_partners_3.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!--Important Updates-->
-    <div class="chatbox">
-      <div class="chatbox__support">
-        <p>Hello</p>
-        <div class="cross">
-          <img src="./assets/home/download-removebg-preview (5).png" alt="" />
-        </div>
-        <br />
-        <div class="m-list">
-          <p>Title of Update</p>
-          <a href="#">View</a>
-        </div>
-        <div class="m-list">
-          <p>Title of Update</p>
-          <a href="#">View</a>
-        </div>
-        <div class="m-list">
-          <p>Title of Update</p>
-          <a href="#">View</a>
+        <img src="./assets/gallery/img1.jpg" alt="gallery" class="modal-video" />
+        <img src="./assets/gallery/img2.jpg" alt="gallery" class="modal-video" />
+        <img src="./assets/gallery/img3.jpg" alt="gallery" class="modal-video" />
+        <img src="./assets/gallery/img4.jpg" alt="gallery" class="modal-video" />
+        <img src="./assets/gallery/img5.jpg" alt="gallery" class="modal-video" />
+        <img src="./assets/gallery/img6.jpg" alt="gallery" class="modal-video" />
+        <img src="./assets/gallery/img7.jpg" alt="gallery" class="modal-video" />
+        
+        <div class="navigate">
+          <img src="./assets/facilities/rightarrow.png" id="navigate-right" onclick="NavigateVideo(1)" />
         </div>
       </div>
 
-      <div class="chatbox__button">
-        <img
-          src="./assets/Questions.svg"
-          alt=""
-          style="width: 20px; height: 20px"
-        />
-        Updates
+      <!-- thumbnail for gallery -->
+      <img src="./assets/gallery/img1.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(0)" />
+      <img src="./assets/gallery/img2.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(1)" />
+      <img src="./assets/gallery/img3.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(2)" />
+      <img src="./assets/gallery/img4.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(3)" />
+      <img src="./assets/gallery/img5.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(4)" />
+      <img src="./assets/gallery/img6.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(5)" />
+      <img src="./assets/gallery/img7.jpg" alt="gallery" class="gallery-video"
+        onclick="videoModal(6)" />
+    </div>
+  </section>
+  <section class="alumni-stories">
+    <h2 class="common-head">Testimonials</h2>
+    <p class="common-subhead">
+      GNIHM provides the best facilities and quality training
+    </p>
+    <div class="alumnicards">
+      <div class="owl-carousel owl-theme alumni-carousel">
+        <div>
+          <div class="alumnicard">
+            <div class="maingrid">
+              <div class="profile">
+                <img src="./assets/home/testimonials/prajwal.jpg" alt="" />
+                <h2>Prajwal Batki</h2>
+              </div>
+              <div class="story">
+                <p>
+                  We have lot of colleges of hotel management in nagpur but our gurunanak institute of hotel management and catering studies have the best campus & perfect teachers to guide the students for right career path. Their efforts & hardwork is clearly visible in students skills. College organize various extra curriculum activities & seminars for helping students to touch new heights . Teachers help students not only professionally but also personally. Thank you GNIHM team for your help & support.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="alumnicard">
+            <div class="maingrid">
+              <div class="profile">
+                <img src="./assets/home/testimonials/mayuri.jpg" alt="" />
+                <h2>Mayuri Awale</h2>
+              </div>
+              <div class="story">
+                <p>
+                  Hello everyone my name is Mayuri Awale. I am a student of second year at  Guru Nanak Institute of Hotel Management and Catering studies . We all are struggling to achieve our goals and what's better than getting a college with the best faculty who teaches us not only because of their profession however , they are building  us to achieve higher positions in our life ,our faculty teaches us by their personal experiences not only from the books which really helps me to stand out than others.  Our college is not only best  by its faculty but it has the best infrastructure, advance classrooms, F and B restauranrt lab,  Front office lab, with housekeeping lab. I can definitely say that, I took right decision by taking admission in this college 😊.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="alumnicard">
+            <div class="maingrid">
+              <div class="profile">
+                <img src="./assets/home/testimonials/chetan.jpg" alt="" />
+                <h2>Chetan Wasu</h2>
+              </div>
+              <div class="story">
+                <p>
+                  My Name is Chetan Wasu I am from Gnihm Nagpur I am currently Pursuing Bsc hospitality studies and I am a 3rd year student we all know that management studies not only required good therotical knowledge but also Many other skills And Gnihm helped me a lot in developing myself as an individual and also introduced me to various new aspects which Will help me a lot in my future.
+I would like to express my sincere gratitude to Gnihm And the faculty members for helping me at every step . the institute provided me the Best possible platform and infray to excel in my career interest .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="alumnicard">
+            <div class="maingrid">
+              <div class="profile">
+                <img src="assets/home/testimonials/amit.jpg" alt="" />
+                <h2>Amit Sharma</h2>
+              </div>
+              <div class="story">
+                <p>
+                  Hello everyone, welcome to Guru Nanak Institute of Hotel Management And Catering Studies, 
+My name is Amit Sharma,  i am currently studying in third year , and i want to share some views on college are 
+- our college have theatre type classes, we have computer lab
+-we have a huge play ground
+-and we have very good teaching staff here 
+-we have a huge kitchen, restaurant and front office lab
+-we do all the activities in our college 
+Thank you🙏
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="alumnicard">
+            <div class="maingrid">
+              <div class="profile">
+                <img src="./assets/home/testimonials_1.png" alt="" />
+                <h2>Himani Nagarkar</h2>
+              </div>
+              <div class="story">
+                <p>
+                  I'm Himani Nagarkar From gurunanak institute of hotel management and catering studies.
+Our college has excellent faculty to teach us , which not only gives me education of hotel management but also they give us wide knowledge about every thing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="placement">
+    <h2 class="common-head">Placement Partners</h2>
+    <p class="common-subhead">
+      GNIHM provides the best facilities and quality training
+    </p>
+    <div class="placementcards">
+      <div class="owl-carousel owl-theme placement-carousel">
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_1.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_2.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_3.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_4.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_5.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_2.png" alt="" />
+          </div>
+        </div>
+        <div>
+          <div class="placementcard">
+            <img src="./assets/home/placement_partners_3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Important Updates-->
+  <div class="chatbox">
+    <div class="chatbox__support">
+      <p style="font-size: large;"><b>Important Updates</b></p>
+      <div class="cross">
+        <img src="./assets/home/download-removebg-preview (5).png" alt="" />
+      </div>
+      <br />
+      <div class="m-list">
+        <p>Title 1</p>
+        <a href="#">View</a>
+      </div>
+      <div class="m-list">
+        <p>Title 1</p>
+        <a href="#">View</a>
+      </div>
+      <div class="m-list">
+        <p>Title 1</p>
+        <a href="#">View</a>
       </div>
     </div>
 
-    <footer>
-      <!--Footer Section-->
-      <div id="footer">
-        <div class="footer-grid">
-          <div id="footer-logo">
-            <a class="brand" href="index.html">
-              <img
-                class="brand-logo-light"
-                src="./assets/home/gnihm_logo.png"
-                alt=""
-              />
-            </a>
+    <div class="chatbox__button" style="width: 140px;">
+      <img src="./assets/floating_icon.png" alt="" style="width: 20px; height: 20px" />
+      Notifications
+    </div>
+  </div>
 
-            <h6 id="footer-address">
-              Dahegaon, Near radha swami satsang, kamleshwar road, Nagput
-              -440502
-            </h6>
+  <footer>
+    <!--Footer Section-->
+    <div id="footer">
+      <div class="footer-grid">
+        <div id="footer-logo">
+          <a class="brand" href="index.html">
+            <img class="brand-logo-light" src="./assets/home/gnihm_logo.png" alt="" />
+          </a>
+
+          <h6 id="footer-address">
+            Guru Nanak Institute of Hotel Management & Catering Studies, Nagpur.
+          </h6>
+        </div>
+
+        <div class="footer-details">
+          
+          <div class="detail">
+            <h1>EMAIL ID</h1>
+            <h2>gnihmcs@gmail.com</h2>
           </div>
-
-          <div class="footer-details">
-            <div class="detail">
-              <h1>CONTACT US</h1>
-              <h2>07118-661400</h2>
-            </div>
-            <div class="detail">
-              <h1>EMAIL ID</h1>
-              <h2>gnihmcs@gmail.com</h2>
-            </div>
-            <div class="detail connect-us">
-              <h1>CONNECT US</h1>
-
-              <ul class="social_footer_ul">
-                <a
-                  href="https://www.instagram.com/p/CUY977Go-TL/?utm_medium=copy_link"
-                  ><img src="./assets/home/instaicon.png" alt=""
-                /></a>
-                <a
-                  href="https://www.facebook.com/Guru-Nanak-Institute-of-Hotel-Management-Catering-Studies-Nagpur-112942973771282"
-                  ><img src="./assets/home/facebookicon.png" alt=""
-                /></a>
-                <a href="#"
+          <br>
+          <div class="detail">
+            <h1>CONNECT US</h1>
+            <ul class="social_footer_ul">
+              <a href="https://www.instagram.com/p/CUY977Go-TL/?utm_medium=copy_link"><img
+                  src="./assets/home/instaicon.png" alt="" /></a>
+              <a
+                href="https://www.facebook.com/Guru-Nanak-Institute-of-Hotel-Management-Catering-Studies-Nagpur-112942973771282"><img
+                  src="./assets/home/facebookicon.png" alt="" /></a>
+              <a href="https://youtu.be/jcQtu8JmBcM"><img src="./assets/home/youtube.svg" alt="" /></a>
+              <!-- <a href="#"
                   ><img src="./assets/home/twittericon.png" alt=""
                 /></a>
                 <a href="#"
                   ><img src="./assets/home/linkedinicon.png" alt=""
-                /></a>
-              </ul>
-            </div>
-          </div>
-
-          <div class="important-links">
-            <dl>
-              <h1>IMPORTANT LINKS</h1>
-
-              <div class="imp-links">
-                <div>
-                  <a href="#">
-                    <dd>Home</dd>
-                  </a>
-                  <a href="./about.html">
-                    <dd>About</dd>
-                  </a>
-                  <a href="./academics.html">
-                    <dd>Academics</dd>
-                  </a>
-                  <a href="./placement.html">
-                    <dd>Placement</dd>
-                  </a>
-                  <a href="./facilities.html">
-                    <dd>Facilities</dd>
-                  </a>
-                </div>
-
-                <div>
-                  <a href="#">
-                    <dd>Events</dd>
-                  </a>
-                  <a href="./gallery.html">
-                    <dd>Gallery</dd>
-                  </a>
-                  <a href="./blog.html">
-                    <dd>Blogs</dd>
-                  </a>
-                  <a href="./career.html">
-                    <dd>Career</dd>
-                  </a>
-                  <a href="./contact.html">
-                    <dd>Contact Us</dd>
-                  </a>
-                </div>
-              </div>
-            </dl>
+                /></a> -->
+            </ul>
           </div>
         </div>
+
+        <div class="important-links">
+          <dl>
+            <h1>IMPORTANT LINKS</h1>
+
+            <div class="imp-links">
+              <div>
+                <a href="about.html">
+                  <dd>About</dd>
+                </a>
+                <a href="academics.html">
+                  <dd>Academics</dd>
+                </a>
+                <a href="placement.html">
+                  <dd>Placement</dd>
+                </a>
+                <a href="facilities.html">
+                  <dd>Facilities</dd>
+                </a>
+              </div>
+
+              <div>
+                <a href="student-support.html">
+                  <dd>Events</dd>
+                </a>
+                <a href="gallery.html">
+                  <dd>Gallery</dd>
+                </a>
+                <a href="career.html">
+                  <dd>Career</dd>
+                </a>
+                <a href="contact.html">
+                  <dd>Contact Us</dd>
+                </a>
+              </div>
+            </div>
+          </dl>
+        </div>
       </div>
+    </div>
+    <section id="copyright-text">
+      <span><span class="copyright"></span>
+        Copyright © 2021, Design & Develop by YUVA Foundation WEB TEAM. All Rights Reserved.
+      </span>
+    </section>
+  </footer>
+  
 
-      <section id="copyright-text">
-        <span
-          ><span class="copyright"></span> Design & Develop by YUVA Foundation
-          2021. All rights reserved.
-        </span>
-      </section>
-    </footer>
+  <script src="./js/home.js"></script>
+  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/chat.js"></script>
+  <script src="./js/app.js"></script>
 
-    <script src="./js/home.js"></script>
-    <!-- <script src="./js/modal.js"></script> -->
-    <script src="./js/chat.js"></script>
-    <script src="./js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
+
 </html>
