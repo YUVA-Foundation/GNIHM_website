@@ -5,8 +5,8 @@ $(document).ready(function () {
       nav: true,
       dots: true,
       navText: [
-        "<img class='customNextBtn' src='../assets/facilities/leftarrow.png'/>",
-        "<img class='customPrevBtn' src='../assets/facilities/rightarrow.png'/>",
+        "<img class='customNextBtn' src='./assets/facilities/leftarrow.png'/>",
+        "<img class='customPrevBtn' src='./assets/facilities/rightarrow.png'/>",
       ],
       responsiveClass: true,
       responsive: {
@@ -34,8 +34,8 @@ $(document).ready(function () {
       nav: true,
       dots: true,
       navText: [
-        "<img class='customNextBtn' src='../assets/facilities/leftarrow.png'/>",
-        "<img class='customPrevBtn' src='../assets/facilities/rightarrow.png'/>",
+        "<img class='customNextBtn' src='./assets/facilities/leftarrow.png'/>",
+        "<img class='customPrevBtn' src='./assets/facilities/rightarrow.png'/>",
       ],
       responsiveClass: true,
       responsive: {
