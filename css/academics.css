@@ -206,7 +206,7 @@ td {
 th {
   padding: 1rem;
   text-align: left;
-  background: #ff7b31;
+  background: #6a0cc1;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -295,7 +295,7 @@ tr:nth-child(even) {
 /* footer */
 #footer {
   margin-top: 4rem;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   padding: 2rem;
 }
 .footer-grid {
@@ -314,7 +314,7 @@ tr:nth-child(even) {
   margin-bottom: 0.2rem;
   /* identical to box height */
 
-  color: #424242;
+  color: #faf4ab;
 }
 .imp-links {
   display: grid;

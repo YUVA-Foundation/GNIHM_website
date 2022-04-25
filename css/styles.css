@@ -74,8 +74,8 @@ body {
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  background-color: #ff7b31;
-  border: 2px solid #ff7b31;
+  background-color: #6a0cc1;
+  border: 2px solid #6a0cc1;
   color: #fff;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 .know_more #know_more_us .cent a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   text-align: center;
   font-weight: 400;
@@ -275,7 +275,7 @@ body {
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
-  border: 1px solid #ff7b31;
+  border: 1px solid #6a0cc1;
 
   font-size: 14px;
   font-style: normal;
@@ -285,8 +285,8 @@ body {
 }
 
 .know_more #know_more_us .cent a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 
@@ -304,7 +304,7 @@ body {
 }
 .campus .cent a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   font-size: 12px;
   text-align: center;
@@ -313,13 +313,13 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #ff7b31;
+  border: 2px solid #6a0cc1;
   transition: all 0.3s ease;
 }
 
 .campus .cent a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 

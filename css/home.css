@@ -74,8 +74,8 @@ a {
   letter-spacing: 0em;
 }
 .home .home-content a:hover {
-  background-color: #ff7b31;
-  border: 2px solid #ff7b31;
+  background-color: #6a0cc1;
+  border: 2px solid #6a0cc1;
   color: #fff;
 }
 
@@ -95,13 +95,13 @@ a {
 .strip1 {
   width: 207px;
   height: 8px;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   justify-self: end;
 }
 .strip2 {
   width: 207px;
   height: 8px;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   float: left;
   margin-top: 12px;
 }
@@ -148,7 +148,7 @@ a {
 }
 .about-content .left a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   font-size: 14px;
   font-weight: 300;
   padding: 11px 22px;
@@ -156,12 +156,12 @@ a {
   margin-bottom: 20px;
   border-radius: 30px;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #ff7b31;
+  border: 2px solid #6a0cc1;
   transition: all 0.3s ease;
 }
 .about-content .left a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 
@@ -180,7 +180,7 @@ a {
 }
 .outer-wrap .cent a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   font-size: 14px;
   text-align: center;
@@ -189,13 +189,13 @@ a {
   padding: 10px 20px;
   border-radius: 46px;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #ff7b31;
+  border: 2px solid #6a0cc1;
   transition: all 0.3s ease;
 }
 
 .outer-wrap .cent a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 
@@ -278,7 +278,7 @@ a {
 
 .cards .card .card-content button {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -287,12 +287,12 @@ a {
   margin-bottom: 12px;
   border-radius: 40px;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #ff7b31;
+  border: 2px solid #6a0cc1;
   transition: all 0.3s ease;
 }
 .cards .card .card-content button:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 @media (max-width: 900px) {
@@ -352,7 +352,7 @@ a {
 }
 .know_more #know_more_us .cent a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   text-align: center;
   font-weight: 400;
@@ -361,7 +361,7 @@ a {
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease;
-  border: 1px solid #ff7b31;
+  border: 1px solid #6a0cc1;
 
   font-size: 16px;
   font-style: normal;
@@ -371,15 +371,15 @@ a {
 }
 
 .know_more #know_more_us .cent a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 
 /*WHY GNIHM*/
 .why {
   padding: 4rem 8rem 4rem 8rem;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
 }
 .why .titl {
   font-family: Poppins;
@@ -481,7 +481,7 @@ a {
 }
 .campus .cent a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   font-size: 12px;
   text-align: center;
@@ -490,13 +490,13 @@ a {
   padding: 10px 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #ff7b31;
+  border: 2px solid #6a0cc1;
   transition: all 0.3s ease;
 }
 
 .campus .cent a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 
@@ -817,7 +817,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #ff7b31;
+  color: #6a0cc1;
   font-size: 3rem;
 }
 .navigate {
@@ -867,7 +867,7 @@ a {
 }
 .gallery-section .cent a {
   display: inline-block;
-  color: #ff7b31;
+  color: #6a0cc1;
   background-color: #fff;
   font-size: 12px;
   text-align: center;
@@ -876,13 +876,13 @@ a {
   padding: 10px 20px;
   border-radius: 20px;
   font-family: "Poppins", sans-serif;
-  border: 2px solid #ff7b31;
+  border: 2px solid #6a0cc1;
   transition: all 0.3s ease;
 }
 
 .gallery-section .cent a:hover {
-  border: 2px solid #ff7b31;
-  background-color: #ff7b31;
+  border: 2px solid #6a0cc1;
+  background-color: #6a0cc1;
   color: #fff;
 }
 
@@ -908,7 +908,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #ff7b31;
+  background: #6a0cc1;
   padding: 4%;
   border-radius: 6px;
   margin: 1.5rem 0;
@@ -1366,7 +1366,7 @@ a {
 /* footer */
 #footer {
   margin-top: 2rem;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   padding: 2rem;
 }
 .footer-grid {
@@ -1385,7 +1385,7 @@ a {
   margin-bottom: 0.2rem;
   /* identical to box height */
 
-  color: #424242;
+  color: #faf4ab;
 }
 .imp-links {
   display: grid;

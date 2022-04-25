@@ -144,7 +144,7 @@ body {
 /* footer */
 #footer {
   margin-top: 5%;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   cursor: pointer;
   padding: 2rem;
 }
@@ -164,7 +164,7 @@ body {
   margin-bottom: 0.2rem;
   /* identical to box height */
 
-  color: #424242;
+  color: #faf4ab;
 }
 .imp-links {
   display: grid;

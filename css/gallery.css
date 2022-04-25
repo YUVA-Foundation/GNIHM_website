@@ -119,11 +119,11 @@ a {
   font-family: "Poppins";
 }
 #tabs button:hover {
-  color: #ff7b31;
+  color: #6a0cc1;
 }
 #tabs .active {
-  color: #ff7b31;
-  border-bottom: 1px solid #ff7b31;
+  color: #6a0cc1;
+  border-bottom: 1px solid #6a0cc1;
 }
 /* gallery part */
 #image-gallery,
@@ -194,7 +194,7 @@ a {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  color: #ff7b31;
+  color: #6a0cc1;
   font-size: 3rem;
 }
 .navigate {
@@ -245,7 +245,7 @@ a {
 /* footer section */
 #footer {
   margin-top: 2rem;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   cursor: pointer;
   padding: 2rem;
 }
@@ -265,7 +265,7 @@ a {
   margin-bottom: 0.2rem;
   /* identical to box height */
 
-  color: #424242;
+  color: #faf4ab;
 }
 .imp-links {
   display: grid;

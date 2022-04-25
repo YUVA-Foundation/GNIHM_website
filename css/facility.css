@@ -297,7 +297,7 @@ a {
 /* footer */
 #footer {
   margin-top: 4rem;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   padding: 2rem;
 }
 .footer-grid {
@@ -316,7 +316,7 @@ a {
   margin-bottom: 0.2rem;
   /* identical to box height */
 
-  color: #424242;
+  color: #faf4ab;
 }
 .imp-links {
   display: grid;

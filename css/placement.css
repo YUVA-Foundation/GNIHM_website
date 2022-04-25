@@ -103,7 +103,7 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0% 10%;
-  background: #ff7b31;
+  background: #6a0cc1;
   padding: 2% 2%;
   color: white;
   overflow-x: hidden;
@@ -339,7 +339,7 @@ a {
 /* footer */
 #footer {
   margin-top: 5%;
-  background-color: #ff7b31;
+  background-color: #6a0cc1;
   cursor: pointer;
   padding: 2rem;
 }
@@ -359,7 +359,7 @@ a {
   margin-bottom: 0.2rem;
   /* identical to box height */
 
-  color: #424242;
+  color: #faf4ab;
 }
 .imp-links {
   display: grid;

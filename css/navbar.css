@@ -2,5 +2,6 @@
   font-weight: 500;
 }
 .nav-link:hover {
-  color: rgb(58, 58, 58) !important;
+  /* color: rgb(58, 58, 58) !important; */
+  color: #faf4ab !important;
 }
